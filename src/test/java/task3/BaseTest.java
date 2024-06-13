@@ -1,13 +1,10 @@
-package task4;
+package task3;
 
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
-import org.openqa.selenium.Cookie;
 import managers.DriverManager;
 import managers.InitManager;
-
-import java.util.Date;
 
 public class BaseTest {
     private final DriverManager driverManager = DriverManager.getInstance();

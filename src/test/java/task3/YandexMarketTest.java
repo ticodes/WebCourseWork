@@ -1,4 +1,4 @@
-package task4;
+package task3;
 
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
