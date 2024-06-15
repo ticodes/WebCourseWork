@@ -103,6 +103,7 @@ public class TabletPage extends BasePage{
 
         Assert.assertEquals("Названия не совпадают", productTitle, title);
         Assert.assertEquals("Цены не совпадают", productPrice, price);
+        logger.info("Найден второй по порядку товар");
     }
 
 
