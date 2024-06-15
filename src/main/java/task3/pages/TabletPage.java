@@ -56,7 +56,7 @@ public class TabletPage extends BasePage{
         return this;
     }
 
-    @Step("В меню фильтров 'Производитель' выбрать 'Samsung'")
+    @Step("Выбрать фильтр подешевле")
     public TabletPage setFilterCheaper() {
         moveToElement(cheaperFilter);
         cheaperFilter.click();
